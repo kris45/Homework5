@@ -1,0 +1,169 @@
+
+.container {
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+	font-family: "Helvetica Neue", sans-serif;
+	height: 1065px;	
+	width: 1215px;
+}
+
+.clearfix:after {
+	clear:both;
+	content: "";
+	display: block;
+}
+
+/* MENU */
+
+nav {
+	background-image: url(../img/menubg.jpg);	
+	font-size: 14px;
+}
+
+nav li {
+	float:left;
+}
+
+nav ul {
+	float: right;
+	padding-right: 15px;
+}
+
+nav a {
+	color: #60b5ed;
+	line-height: 36px;	
+	padding: 12px 15px;
+}
+
+.menu:hover {
+	background-color: #4eabda;
+	color: #fff;
+}
+
+li span{
+	border-bottom: 1px solid #9ac1e4;
+}
+
+.active {
+	background: linear-gradient(to bottom, #1e5799 0%,#5e5e5e 0%,#51b1dc 0%,#207cca 100%,#2e7ac4 100%);
+	color: #fff;
+}
+
+.unactive {
+	border-left: 1px solid #56a2dc;
+	color: #fff;
+}
+
+nav img {
+	padding-right: 10px;
+	position: relative;
+	top: 5px;
+}
+
+/* CONTENT */
+
+.content {
+	align-items: center;
+	display: flex;
+    height: 1027px; 
+    justify-content: center; 
+}
+
+.box {
+	background-color: rgba(0, 0, 0, .55);
+	height: 613px;
+    width: 560px; 
+}
+
+header {   
+    border-bottom: 2px solid #c2cab3;
+	height: 64px;
+    text-align: center;  
+}
+
+h2 {
+    color: #fff;
+    font-size: 24px;
+    padding-top: 25px;
+}
+
+.main {
+	align-items: center;
+    display: flex;
+    flex-direction: column;      
+}
+
+h3 {
+    color: #999;
+	margin: 30px 0 10px 0;
+}
+
+h3:before, 
+h3:after {
+    content: "";
+	background: #000;
+    background-clip: content-box;
+    border-top: 1px solid #666;
+    display: inline-block;	
+	height: 1px;
+    position: relative;   
+    vertical-align: middle;   
+	width: 120px;
+}
+
+.forms {
+	align-items: center;
+	display: flex;
+    flex-direction: column;
+}
+
+.forms input {   
+    background-color: #100e0f;
+    border: 0;
+    color: #fff;
+	font-size:14px;
+	margin-top: 15px;
+	padding: 8px 100px 8px 15px;	
+}
+
+.forms input:focus {
+	background-color: #1a5183;
+	box-shadow: 0px 0px 7px 3px rgba(81,140,180,1);       
+}
+
+.fb{
+	padding-top: 15px;
+}
+
+.chkbx label {
+	bottom: 2px;	
+    color: #ccc;
+	position:relative;
+}
+
+.chkbx  {
+	margin-top:20px;
+	font-size: 14px;
+}
+	
+.chkbx input {
+    height: 16px;
+    width: 16px;
+}
+
+button {    
+    background: linear-gradient(to bottom,  #1e5799 0%,#5e5e5e 0%,#7db9e8 0%,#50aedb 0%,#2e7ac4 100%,#2989d8 100%,#2989d8 100%,#2e7ac4 101%,#2989d8 102%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */   
+    border: 0;
+    border-radius: 2px;
+	color: #fff;
+    font-weight: 600;
+	margin: 22px;
+	padding: 8px 17px;
+}
+
+footer {
+    color: #ccc;
+    font-size: 11px;
+	line-height:15px;	
+	text-align: center;
+}
