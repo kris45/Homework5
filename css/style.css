@@ -5,6 +5,7 @@
 	font-family: "Helvetica Neue", sans-serif;
 	height: 1065px;	
 	width: 1215px;
+	margin: 0 auto;
 }
 
 .clearfix:after {
